@@ -10,7 +10,7 @@ nsim <- 1000
 
 # example set of observations
 dfObs <- data.frame(AssessmentUnit=c("Area1","Area1","Area2","Area2","Area2"),
-                     QE=c("Nutrients","Nutrients","DirectEffects","Nutrients","DirectEffects"),
+                     QE=c("Nutrients","DirectEffects","Nutrients","Nutrients","DirectEffects"),
                      Parameter=c("NO3-N","Chl","NO3-N","PO4-P","Chl"),
                      Value=c(23,8,57,1.5,15),
                      StdErr=c(5,6,15,0.4,2),
